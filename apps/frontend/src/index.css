@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #e2e8f0 100%);
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: var(--text-2xl);
+  }
+  h2 {
+    font-size: var(--text-xl);
+  }
+  h3 {
+    font-size: var(--text-lg);
+  }
+  h4 {
+    font-size: var(--text-md);
+  }
+  h5 {
+    font-size: var(--text-sm);
+  }
+  h6 {
+    font-size: var(--text-xs);
+  }
+}
+
+@layer components {
+  .ai-gradient {
+    background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  }
+  
+  .ai-gradient-subtle {
+    background: linear-gradient(135deg, #eff6ff 0%, #f0f9ff 100%);
+  }
+  
+  .ai-glow {
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.15);
+  }
+  
+  .ai-glow-hover {
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.2);
+  }
+  
+  .minimal-pattern {
+    background-image: 
+      radial-gradient(circle at 20% 80%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.03) 0%, transparent 50%);
+  }
+  
+  .ai-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(59, 130, 246, 0.1);
+  }
+  
+  .ai-button {
+    background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+    box-shadow: 0 2px 10px rgba(59, 130, 246, 0.3);
+  }
+  
+  .ai-button:hover {
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+    transform: translateY(-1px);
+  }
+  
+  .text-primary {
+    color: #1e293b;
+  }
+  
+  .text-secondary {
+    color: #64748b;
+  }
+  
+  .text-accent {
+    color: #3b82f6;
+  }
+}

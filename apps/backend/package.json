@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "1.2.12",
+    "@ai-sdk/ui-utils": "^1.2.11",
+    "ai": "^4.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "ollama-ai-provider": "^1.2.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "*",
+    "@repo/types": "*",
+    "@repo/typescript-config": "*",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^24.0.15",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}

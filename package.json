@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "turbo run build --filter=@repo/types",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.5"
+  },
+  "name": "opennapkinai",
+  "packageManager": "npm@10.9.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {}
+}

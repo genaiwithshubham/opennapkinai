@@ -1,0 +1,14 @@
+{
+  "name": "@repo/eslint-config",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/parser": "^8.37.0",
+    "eslint-config-prettier": "^10.1.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
