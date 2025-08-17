@@ -6,9 +6,8 @@ An open-source alternative to Napkin AI that transforms your text into compellin
 
 Check out a quick demo of OpenNapkinAI in action:
 
-<video src="assets/opennapkinai.mov" controls width="600">
-    Your browser does not support the video tag.
-</video>
+[![Watch the video](https://img.youtube.com/vi/LYRLmw00Zyc/maxresdefault.jpg)](https://youtu.be/LYRLmw00Zyc)
+
 
 ## ✨ Features
 
