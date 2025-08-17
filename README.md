@@ -2,7 +2,13 @@
 
 An open-source alternative to Napkin AI that transforms your text into compelling visuals. Share your ideas quickly and effectively with automatically generated diagrams, sketches, and visual representations.
 
-[Video Demo Placeholder - Insert demo video here]
+## 📹 Demo Video
+
+Check out a quick demo of OpenNapkinAI in action:
+
+<video src="assets/opennapkinai.mov" controls width="600">
+    Your browser does not support the video tag.
+</video>
 
 ## ✨ Features
 
