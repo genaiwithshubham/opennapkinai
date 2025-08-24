@@ -67,7 +67,7 @@ The AI integration is handled in `opennapkinai/apps/backend/src/routes/ai.ts`. Y
 
 #### Ollama (Local)
 1. Install Ollama on your system
-2. Pull your desired model (e.g., `ollama pull llama2`)
+2. Pull your desired model (e.g., `ollama pull gemma3:latest`)
 3. Configure the model in the AI route
 
 #### Anthropic

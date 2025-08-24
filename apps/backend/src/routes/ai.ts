@@ -161,8 +161,8 @@ router.post("/structured", async (req, res) => {
     console.log("Received context:", context);
 
     const { object } = await generateObject({
-        // model: ollama("gemma3:latest"),
-        model: anthropic('claude-3-haiku-20240307'),
+        model: ollama("gemma3:latest"),
+        // model: anthropic('claude-3-haiku-20240307'),
         system: SYSTEM_PROMPT,
         prompt: `Generate bullet points from the following context: ${context}`,
         schema: BulletPointsResponseSchema
